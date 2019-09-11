@@ -1,0 +1,539 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+
+/*navbar*/
+
+
+
+#nav-bar{
+	position:sticky;
+	box-shadow: 0 7px 7px #666666;
+	background-color:#333;
+	top:0;
+	z-index:10;
+	
+}
+
+.navbar-brand img{
+	width:150px;
+	padding-left:30px;
+}
+.navbar-nav li{
+	padding:0 10px;
+}	
+
+.navbar-nav li a{
+	float:left;
+	text-align:left;
+}
+#nav-bar ul li a:hover{
+	color:#000bb0!important;
+}
+.nav-bar{
+	background:#fff;
+}
+
+.navbar-toggler{
+	border:none !important;
+}
+.nav-link{
+	color:#FFFFFF !important;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:100;
+	font-size:14px;
+}
+
+
+
+
+/*slider*/
+
+
+
+
+
+#slider{
+	width:100%;
+}
+
+
+
+/*-----our servicess----*/
+
+
+
+
+
+#contact{
+	background:#000;
+	padding-top:40px;
+
+	padding-bottom:40px;
+	color:#777;
+	
+}
+.banner2 h2{
+	margin-left:30px;
+}
+.banner2 ul{
+	margin-left:30px;
+}
+.banner2 img{
+	margin-left:10px;
+}
+.banner2 ul li:hover{
+	color:#0F0!important;
+	cursor:pointer;
+}
+
+.contact-info h2{
+	margin-left:30px;
+}
+.contact-info ul{
+	margin-left:30px;
+}
+.contact-info .fa{
+	margin:15px;
+	color:#FFF;
+	font-weight:bold;
+}
+.contact-info .fa:hover{
+	color:#0F0!important;
+	cursor:pointer;
+}
+.contact-info ul li:hover{
+	color:#0F0!important;
+	cursor:pointer;
+}	
+.banner3{
+	margin-left:30px;
+}
+
+
+
+
+
+
+/* banner printing*/
+
+
+#bannerprint{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/dd.png);
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	padding-top:40px;
+	padding-bottom:80px;
+	font-family:sans-serif;
+	color:white;
+}
+#services h1{
+	text-align:center;
+	color:#efefef !important;
+	padding-bottom:30px;
+}
+
+#services h1::after{
+	content:'';
+	background:#efefef;
+	display:block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px;
+
+}
+
+#services p{
+	font-size:14px;
+	margin-top:20px;
+	color:#ccc;
+	
+}
+.services{
+	margin-top:10px;
+}
+.icon{
+	font-size:40px;
+	margin:20px auto;
+	padding:20px;
+	height:80px;
+	width:80px;
+	border:1px solid #fff;
+	border-radius:50%;
+}
+
+.services .col-md-3:hover{
+	background:#007bff;
+	cursor:pointer;
+	transition:0.7s;
+}
+
+
+
+
+
+
+/*----logo design---*/
+
+section#logodes{
+	padding:0;
+	margin:0;
+		height:80vh;
+	background:url(../img/ddd.png);
+	background-size:cover;
+}
+
+.banner-info, banner-image{
+	margin:30px 0;
+}
+
+.big-text{
+	font-size:52px;
+	margin:20px 0;
+	color:#00FF00;
+}
+
+a.btn{
+	margin:30px 0;
+	width:230px;
+	padding:10px;
+	border-radius:20px;
+}
+
+a.btn-first{
+	background-color:darkorange;
+	color:#FFFFFF;
+}
+
+a.btn:hover{
+	background:darkorange;
+	border:none;
+	color:#fff;
+	box-shadow:5px 5px 10px #999;
+	transition:0.3s;
+}
+
+
+
+/*----our projects----*/
+
+#price{
+	padding:40px 0;
+	background:url(../img/ee.jpg);
+}
+
+.single-price{
+	margin:10px auto;
+	display:inline;
+	float :left;
+	width:100%;
+	background-color:#fff;
+	transition:0.5s;
+}
+
+.single-price:hover{
+	box-shadow:0 10px 34px #fff;
+}
+.price-head {
+	background:url(../img/s1.jpg);
+	background-size:cover;
+	display:inline;
+	float:left;
+	padding:10px 5px;
+	text-align:center;
+	width:100%;
+}
+.price-head4 {
+	background:url(../img/s2.jpg);
+	background-size:cover;
+	display:inline;
+	float:left;
+	padding:10px 5px;
+	text-align:center;
+	width:100%;
+}
+.price-head2 {
+	background:url(../img/s3.jpg);
+	background-size:cover;
+	display:inline;
+	float:left;
+	padding:10px 5px;
+	text-align:center;
+	width:100%;
+}
+
+.price-head3 {
+	background:url(../img/s4.jpg);
+	background-size:cover;
+	display:inline;
+	float:left;
+	padding:10px 5px;
+	text-align:center;
+	width:100%;
+}
+
+.price-head h2{
+	color:#fff;
+	font-size:30px;
+	font-weight:bold;
+	margin-bottom:5px;
+	padding:5px;
+	text-transform:uppercase;
+}
+.price-head2 h2{
+	color:#fff;
+	font-size:30px;
+	font-weight:bold;
+	margin-bottom:5px;
+	padding:5px;
+	text-transform:uppercase;
+}
+.price-head3 h2{
+	color:#fff;
+	font-size:30px;
+	font-weight:bold;
+	margin-bottom:5px;
+	padding:5px;
+	text-transform:uppercase;
+}
+.price-head4 h2{
+	color:#fff;
+	font-size:30px;
+	font-weight:bold;
+	margin-bottom:5px;
+	padding:5px;
+	text-transform:uppercase;
+}
+.price-head p{
+	font-size:20px;
+	color:#ccc;
+	font-weight:bold;
+	line-height:30px;
+}
+
+
+.price-content{
+	display:inline;
+	float:left;
+	width:100%;
+	padding:0 15px;
+}
+
+.price-content ul li{
+	border-bottom:1px solid #efefef;
+	padding:15px 10px;
+	list-style:none;
+}
+
+.price-content ul li:last-child{
+	border:none;
+}
+.fa-check-circle{
+	color:green;
+	margin-right:10px;
+	font-size:20px;
+}
+.fa-times-circle{
+	color:red;
+	margin-right:10px;
+	font-size:20px;
+}
+.price-button{
+	display:inline;
+	float:left;
+	padding:15px 15px 30px;
+	text-align:center;
+	width:100%;
+}
+.buy-btn{
+	background-color:#2196f3;
+	border-radius:3px;
+	display:inline-block;
+	font-size:18px;
+	padding:15px 50px;
+	transition:0.5s;
+}
+.buy-btn:hover{
+	border-color:1px solid #fff;
+background-color: #3f51b5;
+}
+a{
+	text-decoration:none !important;
+	color:#fff !important;
+}
+
+
+
+
+
+
+/*----price----*/
+
+
+section#logodes2{
+	padding:0;
+	margin:0;
+		height:60vh;
+	background:url(../img/vv.png);
+	background-size:cover;
+}
+
+.big-text2{
+	font-size:45px;
+	margin:10px 0;
+	color:#000;
+}
+
+
+
+
+
+
+/*-----contact us----*/
+
+#contact2{
+	background:#efefef;
+	padding-top:40px;
+	padding-bottom:40px;
+	color:#777;
+}
+
+.contact2-form{
+	padding:15px;
+}
+
+."form-control{
+	border-radius: 0 !important;
+	border:none !important;
+}
+::placeholder{
+	color:#999 !important;
+}
+
+.follow{
+	background:#fff;
+	padding:10px;
+	margin:15px;
+}
+.contact2-info .fa{
+	margin:10px;
+	color:#0F0;
+	font-weight:bold;
+}
+.btn-second{
+	background-color:#9900FF;
+	border:1px solid #ff6800;;
+	color:#FFF;
+}
+
+
+
+/* ----about us--- */
+
+
+#team{
+	padding-top:50px;
+	padding-bottom:50px;
+	color:#555;
+}
+h1{
+	text-align:center;
+	color:#555;
+	padding-bottom:10px;
+}
+h1::after{
+	content:'';
+	background:#007bff;
+	display :block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px;
+}
+.profile-pic{
+	margin-top:25px;
+}
+.profile-pic .img-box{
+	opacity:1;
+	display:block;
+	position:relative;
+	
+}
+
+.profile-pic .img-box img{
+	filter:grayscale(1);
+	
+}
+
+.profile-pic .img-box img:hover{
+	filter:grayscale(0);
+	cursor:pointer;
+	
+}
+
+.profile-pic h3{
+	font-size:22px;
+	font-weight:bold;
+	margin-top:15px;
+	color:#007bff !important;
+}
+
+.profile-pic h4{
+	font-size:14px;
+	font-weight:bold;
+	margin-top:15px;
+	
+}		
+
+#team .fa{
+	height:25px;
+	width:25px;
+	color:#0F0 !important;
+	padding:4px;
+	border-radius:50%;
+}
+.img-box ul{
+	padding:15px 0;
+	position:absolute;
+	z-index:2px;
+	bottom:0;
+	left:50%;
+	transform:translateX(-50%);
+	opacity:0;
+}
+
+.img-box ul li{
+	padding:5px;
+	display:inline-block;
+}
+
+.img-box:hover ul{
+	opacity:1;
+}
+.img-box ul,.img-box ul li{
+	transition:0.5s;
+}
+	
+
+
+
+
+
+/*-----footer----*/
+
+#footer{
+	background:#000000;
+	margin:o;
+	padding-top:30px;
+	padding-left:30px;
+	padding-bottom:30px;
+}
+
+
+
+
+
